@@ -1,0 +1,38 @@
+body {
+  font-family: 'Rammetto One', cursive;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 3.5em;
+}
+
+.container1 {
+  display: flex;
+  margin: 50px;
+  padding:70px;
+  background-color: #000;
+  color: #fff;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.answer{
+  padding: 30px;
+  border-radius: 100%;
+}
+
+button {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  border-radius: 50%;
+  font-size:1.25em;
+  font-family: 'Oswald', sans-serif
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
