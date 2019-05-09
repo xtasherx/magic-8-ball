@@ -7,9 +7,12 @@ var answer = ["It is certain.","It is decidedly so.", "Without a doubt.",
  "Don't count on it." ,"My reply is no." ,"My sources say no." ,"Outlook not so good." ,
  "Very doubtful."];
 
-
+function fortune(){
+  var randomAnswer= answer[Math.floor(Math.random() * answer.length)];
+  return randomAnswer;
+}
 
 document.querySelector(".mybtn").addEventListener("click", function(){
-  var randomAnswer= answer[Math.floor(Math.random() * answer.length)];
-  p.innerHTML = randomAnswer;
+  // var randomAnswer= answer[Math.floor(Math.random() * answer.length)];
+  p.innerHTML = fortune();
 });
