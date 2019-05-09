@@ -1,10 +1,9 @@
 body {
-  font-family: 'Rammetto One', cursive;
+
+  font-family: 'Stylish', sans-serif;
 }
 
-
-
-body, header, .container1, .container2{
+body, header, .container1, .container2, .container3 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,25 +11,31 @@ body, header, .container1, .container2{
 }
 
 h1 {
-  font-size: 3.5em;
+  font-size: 4.5em;
+  font-family: 'Rammetto One', cursive;
 }
 
 .container1 {
   display: flex;
   width:170px;
   height: 170px;
-  margin: 50px;
+  margin: 30px;
   padding: 160px;
   border-radius: 50%;
   background-color: #000;
   color: #fff;
 }
-
-.answer{
-  padding: 50px;
+.container3 {
+  height: 70px;
+  width: 70px;
+  padding: 65px;
   border-radius: 50%;
   background-color: #DAD9D9;
   color: #000;
+}
+
+.answer{
+  text-align: center;
 }
 
 button {
@@ -41,9 +46,8 @@ button {
   background-color: white;
   font-size:1.25em;
   box-shadow: 5px 5px #DAD9D9;
-  font-family: 'Rammetto One', cursive;
-  -moz-appearance: none;
-  -webkit-appearance: none;
+  font-family: 'Stylish', sans-serif;
+
 }
 
 button:hover {
